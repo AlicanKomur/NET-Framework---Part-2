@@ -1,20 +1,34 @@
-# Portfolio Assignment - C# Projects
+📘 C# Portfolio Assignments
 
-This repository contains various projects and exercises related to C# and .NET development. Each project demonstrates different concepts such as object-oriented programming, interfaces, operator overloading, and polymorphism.
+Author: Alican Komür
 
-## Project Files
+This repository contains multiple C#/.NET projects created to practice fundamental and intermediate programming concepts. Each assignment demonstrates topics such as object-oriented programming, interfaces, operator overloading, and polymorphism.
 
-### 1. Polymorphism.cs
-- **Description**: This project demonstrates the concept of polymorphism in C#. The `Employee` class implements the `IQuittable` interface, which includes a `Quit()` method. In the main program, polymorphism is demonstrated by treating an `Employee` object as an `IQuittable` object and calling the `Quit()` method.
-- **Key Concepts**: Polymorphism, Interfaces, and Method Overriding.
-- **Repository**: [Polymorphism Assignment](https://github.com/ozcan-ayisigi/Polymorphism-Assignment-Submission)
+📂 Project Files
+1. Polymorphism.cs
 
-### 2. Operator Assignment.cs
-- **Description**: This project focuses on operator overloading. The `Employee` class has overloaded `==` and `!=` operators to compare two `Employee` objects based on their `Id`. It also overrides the `Equals` and `GetHashCode` methods to ensure proper comparison behavior.
-- **Key Concepts**: Operator Overloading, Overriding Methods.
-- **Repository**: [Operators Assignment](https://github.com/ozcan-ayisigi/Operators-Assignment-Submission)
+Repository: Polymorphism Assignment
+Description:
+This project demonstrates polymorphism in C#. The Employee class implements the IQuittable interface, which defines a Quit() method. In the main program, an Employee object is treated as an IQuittable type, and the Quit() method is called to show how polymorphism allows objects to be referenced by their interface.
 
-## How to Run
-1. Clone the repository.
-2. Open the solution in Visual Studio.
-3. Build and run each project individually to see the output.
+Key Concepts:
+
+Polymorphism
+
+Interfaces
+
+Method Implementation
+
+2. Operator Assignment.cs
+
+Repository: Operators Assignment
+Description:
+This project focuses on operator overloading. The Employee class overloads the == and != operators so two Employee objects can be compared using their Id values. The Equals() and GetHashCode() methods are also overridden to ensure consistent behavior across comparisons.
+
+Key Concepts:
+
+Operator Overloading
+
+Overriding Methods
+
+Object Comparison
