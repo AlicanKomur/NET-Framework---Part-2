@@ -1,34 +1,53 @@
-📘 C# Portfolio Assignments
+# C# Projects
 
-Author: Alican Komür
+These are some small projects I created using C# and the .NET Framework throughout the course.  
+Each folder in this repository represents a different assignment or MVC application demonstrating core C# and ASP.NET MVC concepts.
 
-This repository contains multiple C#/.NET projects created to practice fundamental and intermediate programming concepts. Each assignment demonstrates topics such as object-oriented programming, interfaces, operator overloading, and polymorphism.
+## Projects:
 
-📂 Project Files
-1. Polymorphism.cs
+- [ASP.NET MVC Entity Framework](https://github.com/AlicanKomur/NET-Framework---Part-2/tree/main/ASP.NET-MVC-Entity-Framework)
+- [Final Assignment Submission](https://github.com/AlicanKomur/NET-Framework---Part-2/tree/main/Final-Assignment-Submission)
+- [Method & Class Assignment Submission](https://github.com/AlicanKomur/NET-Framework---Part-2/tree/main/Method-Class-Assignment-Submission)
+- [Operators Assignment Submission](https://github.com/AlicanKomur/NET-Framework---Part-2/tree/main/Operators-Assignment-Submission)
+- [Polymorphism Assignment Submission](https://github.com/AlicanKomur/NET-Framework---Part-2/tree/main/Polymorphism-Assignment-Submission)
+- [Portfolio Assignment Submission](https://github.com/AlicanKomur/NET-Framework---Part-2/tree/main/Portfolio-Assignment-Submission)
 
-Repository: Polymorphism Assignment
-Description:
-This project demonstrates polymorphism in C#. The Employee class implements the IQuittable interface, which defines a Quit() method. In the main program, an Employee object is treated as an IQuittable type, and the Quit() method is called to show how polymorphism allows objects to be referenced by their interface.
+---
 
-Key Concepts:
+## ASP.NET MVC Entity Framework
+This project demonstrates the use of Entity Framework within an ASP.NET MVC application.  
+It includes database interactions, CRUD operations, and a structured MVC architecture.  
+It was built to practice data modeling, migrations, and database-first / code-first approaches.
 
-Polymorphism
+---
 
-Interfaces
+## Final Assignment Submission
+This folder contains the final project delivered for the course.  
+It showcases the accumulated skills in C#, MVC, and general application structure.
 
-Method Implementation
+---
 
-2. Operator Assignment.cs
+## Method & Class Assignment
+This assignment focuses on building classes, creating methods with various access modifiers, and applying object-oriented programming concepts.
 
-Repository: Operators Assignment
-Description:
-This project focuses on operator overloading. The Employee class overloads the == and != operators so two Employee objects can be compared using their Id values. The Equals() and GetHashCode() methods are also overridden to ensure consistent behavior across comparisons.
+---
 
-Key Concepts:
+## Operators Assignment
+A set of exercises demonstrating the use of arithmetic, comparison, logical, and assignment operators in C#.  
+The goal was to practice basic program flow and variable manipulation.
 
-Operator Overloading
+---
 
-Overriding Methods
+## Polymorphism Assignment
+This project showcases OOP polymorphism in C#.  
+It includes examples of method overriding, virtual methods, base/derived class relationships, and runtime polymorphism.
 
-Object Comparison
+---
+
+## Portfolio Assignment
+This assignment required building a personal portfolio site using MVC structure.  
+It demonstrates routing, controllers, views, and basic page composition.
+
+---
+
+Feel free to explore each folder to see detailed implementations from the .NET Framework learning path.
